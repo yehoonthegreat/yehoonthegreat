@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jane Kim</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-181020421-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-181020421-1');
+</script>
+
+  </head>
+  <body>
+
+    <!-- BEGIN NAVBAR -->
+    <div class="navbar">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <!-- END NAVBAR -->
+
+    <div class="container">
+
+      <!-- HEADER -->
+      <div class="jumbotron">
+        <div class="jumbotron-text">
+          <h1>Jane Yunji Kim</h1>
+          <p>English Interpreter and Translator.</p>
+        </div>
+        <div class="jumbotron-social">
+          <ul class="ul-social">
+            <li class="li-social-links">
+              <a class="social" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+            <li class="li-social-links">
+              <a class="social" href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+    </div>
+      </div>
+        <div id="down-arrow">
+          <span><a href="#about"><i class="fa fa-chevron-down" aria-hidden="true"></i></a></span>
+        </div>
+      </div>
+      <!-- END HEADER -->
+
+
+
+      <!-- BEGIN ABOUT -->
+      <div class="row white box-shadow">
+        <div class="side-content"></div>
+        <div class="main-content">
+          <div class="content-header">
+            <a class="anchor" name="about"></a>
+            <h2>About</h2>
+          </div>
+          <div class="content-body" style="text-align:center">
+            <p> I was born and raised in Seoul, Korea. I spent most of my school years in a small town called La Canada in California. </p>
+            <p> I am currently working as an English Translator and Interpreter in Corporate Citizenship Office of Samsung Electronics.</p>
+          </div>
+<style>
+	* {margin:0;padding:0;}
+	.section input[id*="slide"] {display:none;}
+	.section .slidewrap {max-width:300px;margin:0 auto;}
+	.section .slidelist {white-space:nowrap;font-size:0;overflow:hidden;position:relative;}
+	.section .slidelist > li {display:inline-block;vertical-align:middle;width:100%;transition:all .5s;}
+	.section .slidelist > li > a {display:block;position:relative;}
+	.section .slidelist > li > a img {width:100%;}
+	.section .slidelist label {position:absolute;z-index:10;top:50%;transform:translateY(-50%);padding:50px;cursor:pointer;}
+	.section .slidelist .textbox {position:absolute;z-index:1;top:50%;left:50%;transform:translate(-50%,-50%);line-height:1.6;text-align:center;}
+	.section .slidelist .textbox h3 {font-size:36px;color:#fff;;transform:translateY(30px);transition:all .5s;}
+	.section .slidelist .textbox p {font-size:16px;color:#fff;opacity:0;transform:translateY(30px);transition:all .5s;}
+	
+	/* input에 체크되면 슬라이드 효과 */
+	.section input[id="slide01"]:checked ~ .slidewrap .slidelist > li {transform:translateX(0%);}
+	.section input[id="slide02"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-100%);}
+	.section input[id="slide03"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-200%);}
+
+	/* input에 체크되면 텍스트 효과 */
+	.section input[id="slide01"]:checked ~ .slidewrap li:nth-child(1) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.2s;}
+	.section input[id="slide01"]:checked ~ .slidewrap li:nth-child(1) .textbox p {opacity:1;transform:translateY(0);transition-delay:.4s;}
+	.section input[id="slide02"]:checked ~ .slidewrap li:nth-child(2) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.2s;}
+	.section input[id="slide02"]:checked ~ .slidewrap li:nth-child(2) .textbox p {opacity:1;transform:translateY(0);transition-delay:.4s;}
+	.section input[id="slide03"]:checked ~ .slidewrap li:nth-child(3) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.2s;}
+	.section input[id="slide03"]:checked ~ .slidewrap li:nth-child(3) .textbox p {opacity:1;transform:translateY(0);transition-delay:.4s;}
+
+	/* 좌,우 슬라이드 버튼 */
+	.slide-control > div {display:none;}
+	.section .left {left:30px;background:url('left.png') center center / 100% no-repeat;}
+	.section .right {right:30px;background:url('right.png') center center / 100% no-repeat;}
+	.section input[id="slide01"]:checked ~ .slidewrap .slide-control > div:nth-child(1) {display:block;}
+	.section input[id="slide02"]:checked ~ .slidewrap .slide-control > div:nth-child(2) {display:block;}
+	.section input[id="slide03"]:checked ~ .slidewrap .slide-control > div:nth-child(3) {display:block;}
+
+	/* 페이징 */
+	.slide-pagelist {text-align:center;padding:20px;}
+	.slide-pagelist > li {display:inline-block;vertical-align:middle;}
+	.slide-pagelist > li > label {display:block;padding:8px 30px;border-radius:30px;background:#ccc;margin:20px 10px;cursor:pointer;}
+	.section input[id="slide01"]:checked ~ .slidewrap .slide-pagelist > li:nth-child(1) > label {background:#999;}
+	.section input[id="slide02"]:checked ~ .slidewrap .slide-pagelist > li:nth-child(2) > label {background:#999;}
+	.section input[id="slide03"]:checked ~ .slidewrap .slide-pagelist > li:nth-child(3) > label {background:#999;}
+	</style>
+</head>
+<body>
+
+<div class="section">
+	<input type="radio" name="slide" id="slide01" checked>
+	<input type="radio" name="slide" id="slide02">
+	<input type="radio" name="slide" id="slide03">
+	<div class="slidewrap">
+		
+		<ul class="slidelist">
+			<!-- 슬라이드 영역 -->
+			<li class="slideitem">
+				<a>
+					<div class="textbox">
+					</div>
+					<img src="mainimage.jpg">
+				</a>
+			</li>
+			<li class="slideitem">
+				<a>
+					
+					<div class="textbox">
+					</div>
+					<img src="mainimage3.jpg">
+				</a>
+			</li>
+			<li class="slideitem">
+				<a>
+					
+					<div class="textbox">
+					</div>
+					<img src="mainimage2.jpg">
+				</a>
+			</li class="slideitem">
+
+			<!-- 좌,우 슬라이드 버튼 -->
+			<div class="slide-control">
+				<div>
+					<label for="slide03" class="left"></label>
+					<label for="slide02" class="right"></label>
+				</div>
+				<div>
+					<label for="slide01" class="left"></label>
+					<label for="slide03" class="right"></label>
+				</div>
+				<div>
+					<label for="slide02" class="left"></label>
+					<label for="slide01" class="right"></label>
+				</div>
+			</div>
+
+		</ul>
+		<!-- 페이징 -->
+		<ul class="slide-pagelist">
+			<li><label for="slide01"></label></li>
+			<li><label for="slide02"></label></li>
+			<li><label for="slide03"></label></li>
+		</ul>
+	</div>
+
+	
+</div>
+
+  </div>
+ 
+</div>
+      <!-- END ABOUT -->
+
+      <!-- BEGIN EXPERIENCE -->
+      <div class="row">
+        <div class="side-content"></div>
+        <div class="main-content">
+          <div class="content-header">
+            <a class="anchor" name="experience"></a>
+            <h2>Experience</h2>
+          </div>
+          <!-- CARD #1 -->
+          <div class="content-body">
+            <div class="card">
+              <div class="card-header">
+                <h4>Lionix Korea <span class="job-title">Part-time Intern</span></h4>
+              </div>
+              <div class="card-content">
+                <p>I worked in an ICT company as an English translator during my freshman year in college. </p>
+              </div>
+            </div>
+
+          <!-- CARD #2 -->
+
+            <div class="card">
+              <div class="card-header">
+                <h4> Freelancer <span class="job-title">Assistant Director </span></h4>
+              </div>
+              <div class="card-content">
+                <p>I worked as a freelance assistant director of live shows. I did Gongyoo and Park Seojun's fan meet event in Singapore, Hongkong and Taiwan. </p>
+              </div>
+            </div>
+            
+          <!-- CARD #3 -->
+            <div class="card">
+              <div class="card-header">
+                <h4>MBC <span class="job-title">Associate</span></h4>
+              </div>
+              <div class="card-content">
+                <p>I worked for a year as an English translator in MBC. I translated English news into Korean. </p>
+              </div>
+            </div>
+
+          <!-- CARD #4 -->
+
+            <div class="card">
+              <div class="card-header">
+                <h4>Samsung Electronics <span class="job-title">English Translator</span></h4>
+              </div>
+              <div class="card-content">
+                <p> I am currently working in the Corporate Citizenship Office of Samsung Electronics. I help plan educational contribution programs and facilitate communication between Korea and subsidiaries overseas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="side-content"></div>
+      </div>
+      <!-- END EXPERIENCE -->
+
+      <!-- BEGIN EDUCATION -->
+      <div class="row white box-shadow">
+        <div class="side-content"></div>
+        <div class="main-content">
+          <div class="content-header">
+            <a class="anchor" name="education"></a>
+            <h2>Education</h2>
+          </div>
+          <div class="content-body">
+
+            <!-- EDUCATION 1 -->
+            <div class="card">
+              <div class="card-header">
+                <h4>Hanguk University of Foreighn Studies <span class="job-title">Class of 2018</span></h4>
+              </div>
+              <div class="card-content">
+                <p> I majored English for International Communication and Conferences(EICC). I learned various communicational skills along with professional skills on translating and interpreting</p>
+              </div>
+            </div>
+            <!-- EDUCATION 2 -->
+            <div class="card">
+              <div class="card-header">
+                <h4>Graduate Scool of Interpretation and Translation of Hanguk University of Foreign Studies <span class="job-title">Dates Attended</span></h4>
+              </div>
+              <div class="card-content">
+                <p>I didn't get accepted yet but I just put it in ;p.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="side-content"></div>
+      </div>
+      <!-- END EDUCATION -->
+
+      <!-- BEGIN PROJECTS -->
+      <div class="row">
+        <div class="side-content-sm"></div>
+        <div class="main-content-lg">
+          <div class="content-header">
+            <a class="anchor" name="projects"></a>
+            <h2>Projects</h2>
+          </div>
+          <div class="content-body">
+            <!-- CARD #1 -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="image.jpg">
+              </div>
+              <div class="project-content">
+                <h4>Live events</h4>
+                <p>Building on the experience of working as an interpretor in commercial and live photo shoots, I was offered an opportunity to work as an assistant director. 
+                I learned in-depth communication skills in working with various teams such as PR agency and venue contacts. I participated in every stage of producing the show, which required months of preparation and on-site directing. 
+                Gongyoo's fan meet show was held in Taiwan and Hongkong, and Park Seojun's fan meet show was held in Taiwan, Hongkong and Singapore. I helped produce and direct many other TV commercials such as La Mer and Yamaha.</p>
+                <a href="http://www.kpopherald.com/view.php?ud=201704301721153417776_2">Gongyoo "Make a Wish"</a><a href="https://theseoulstory.com/upcoming-event-guess-who-park-seo-jun-to-hold-first-fan-meeting-in-singapore/">Park Seojun "Guess Who"</a>
+              </div>
+            </div>
+            <!-- CARD #2 -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="http://placehold.it/250x350">
+              </div>
+              <div class="project-content">
+                <h4>CSR Planning and Translation in Samsung</h4>
+                <p> Throughout the process of building a website and releasing it, I participated in translation of the contents and gave feedbacks to make the contents more engagable. </p>
+                <a href="http://csr.samsung.com/en/main.do">Samsung CSR website</a>
+              </div>
+            </div>
+            <!-- CARD #3 -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="http://placehold.it/250x350">
+              </div>
+              <div class="project-content">
+                <h4>Project Name</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="#">Link Text</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="side-content-sm"></div>
+      </div>
+      <!-- END PROJECTS -->
+
+      <!-- BEGIN SKILLS -->
+      <div class="row white box-shadow">
+        <div class="side-content"></div>
+        <div class="main-content">
+          <div class="content-header">
+            <a class="anchor" name="skills"></a>
+            <h2>Skills</h2>
+          </div>
+          <div class="content-body">
+            <ul class="ul-skills">
+              <li class="li-skills">Javascript</li>
+              <li class="li-skills">HTML</li>
+              <li class="li-skills">CSS</li>
+              <li class="li-skills">communication</li>
+              <li class="li-skills">English</li>
+              <li class="li-skills">Translation</li>
+              <li class="li-skills">Interpretation</li>
+              <li class="li-skills">Teamwork</li>
+            </ul>
+          </div>
+        </div>
+        <div class="side-content"></div>
+      </div>
+      <!-- END SKILLS -->
+
+      <!-- BEGIN CONTACT -->
+
+      <div class="row blue">
+        <div class="side-content"></div>
+        <div class="main-content">
+          <div class="content-header">
+            <a class="anchor" name="contact"></a>
+            <h2 class="white-text">Contact Me</h2>
+          </div>
+          <div class="contact content-body">
+            <form method="POST" action="https://formspree.io/janeykim1208@gmail.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="janeykim1208@gmail.com" required>
+                <textarea name="message" placeholder="You can send me a message anonymously!" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+        <div class="side-content"></div>
+      </div>
+      <!-- END CONTACT -->
+
+      <!-- BEGIN FOOTER -->
+      <div class="row">
+        <div class="side-content"></div>
+        <div class="main-content">
+          <div class="content-header">
+          </div>
+          <div class="content-body">
+            <p>Copyright Yunji Kim 2017</p>
+          </div>
+        </div>
+        <div class="side-content"></div>
+      </div>
+      <!-- END FOOTER -->
+
+    </div>
+  </body>
+</html>
